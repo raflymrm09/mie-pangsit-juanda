@@ -32,7 +32,7 @@ const Menu = () => {
       description: "Mie yamin dengan bumbu pedas manis khas, dilengkapi pangsit goreng dan sayuran segar",
       price: "Rp 15.000",
       rating: 4.9,
-      image: "https://images.pexels.com/photos/4518842/pexels-photo-4518842.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "/mie_yaminpedas.jpeg",
       popular: true
     },
     {
@@ -41,7 +41,7 @@ const Menu = () => {
       description: "Mie yamin klasik dengan pangsit rebus, sayuran hijau, dan kuah kaldu yang gurih",
       price: "Rp 15.000",
       rating: 4.8,
-      image: "https://images.pexels.com/photos/8951213/pexels-photo-8951213.jpeg?auto=compress&cs=tinysrgb&w=400"
+      image: "/mie_yaminmanis.jpeg"
     },
     {
       id: 3,
@@ -49,7 +49,7 @@ const Menu = () => {
       description: "Mie yamin dengan potongan ayam kampung, pangsit jumbo, telur, dan topping lengkap",
       price: "Rp 22.000",
       rating: 4.9,
-      image: "https://images.pexels.com/photos/4518842/pexels-photo-4518842.jpeg?auto=compress&cs=tinysrgb&w=400"
+      image: "mie_pangsitt.jpeg"
     },
     {
       id: 4,
@@ -57,7 +57,7 @@ const Menu = () => {
       description: "Kombinasi mie yamin dengan bakso sapi pilihan dan pangsit goreng yang renyah",
       price: "Rp 20.000",
       rating: 4.7,
-      image: "https://images.pexels.com/photos/8951213/pexels-photo-8951213.jpeg?auto=compress&cs=tinysrgb&w=400"
+      image: "/mie_pedasgurih.jpeg"
     },
     {
       id: 5,
@@ -65,7 +65,7 @@ const Menu = () => {
       description: "Mie yamin dengan topping udang, cumi, dan pangsit isi seafood yang lezat",
       price: "Rp 25.000",
       rating: 4.8,
-      image: "https://images.pexels.com/photos/4518842/pexels-photo-4518842.jpeg?auto=compress&cs=tinysrgb&w=400"
+      image: "/mie_chilioil.jpeg"
     },
     {
       id: 6,
@@ -73,7 +73,7 @@ const Menu = () => {
       description: "Mie yamin dengan sayuran organik, tahu, tempe, dan pangsit sayur yang sehat",
       price: "Rp 16.000",
       rating: 4.6,
-      image: "https://images.pexels.com/photos/8951213/pexels-photo-8951213.jpeg?auto=compress&cs=tinysrgb&w=400"
+      image: "/wonton_chilioil.jpeg"
     }
   ];
 

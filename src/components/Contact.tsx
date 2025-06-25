@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Phone, MessageSquare, Instagram, Video, Mail, Clock, MapPin, Navigation } from 'lucide-react';
+import { Phone, MessageSquare, Video, Clock, MapPin, Navigation } from 'lucide-react';
 
 const Contact = () => {
   const [selectedItem, setSelectedItem] = useState<string>('');
@@ -37,9 +37,9 @@ const Contact = () => {
 
   const handleMapClick = () => {
     // Open Google Maps with the restaurant location
-    const address = "Jalan Juanda No. 123, Gubeng, Surabaya, Jawa Timur";
+    const address = "Jl. Raya Pulungan No.100, Kepuh, Betro, Kec. Sedati, Kabupaten Sidoarjo, Jawa Timur 61253";
     const encodedAddress = encodeURIComponent(address);
-    window.open(`https://www.google.com/maps/search/?api=1&query=${encodedAddress}`, '_blank');
+    window.open("https://maps.app.goo.gl/AeLhREQMNVo7w7Yh9", "_blank");
   };
 
   const contactInfo = [
@@ -126,16 +126,8 @@ const Contact = () => {
               </div>
               <div className="space-y-2 text-gray-600">
                 <div className="flex justify-between">
-                  <span>Senin - Jumat</span>
+                  <span>Senin - Minggu</span>
                   <span className="font-semibold">08:00 - 22:00</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Sabtu - Minggu</span>
-                  <span className="font-semibold">07:00 - 23:00</span>
-                </div>
-                <div className="flex justify-between text-red-600 font-semibold">
-                  <span>Hari Libur</span>
-                  <span>08:00 - 22:00</span>
                 </div>
               </div>
             </div>
@@ -153,8 +145,9 @@ const Contact = () => {
                 <div className="mb-6">
                   <h4 className="text-xl font-semibold text-gray-900 mb-2">Mie Pangsit Yamin Juanda</h4>
                   <p className="text-gray-600 mb-4">
-                    Jalan Juanda No. 123, Gubeng<br/>
-                    Surabaya, Jawa Timur 60281<br/>
+                    Jl. Raya Pulungan No.100, Kepuh, Betro, Kec. Sedati,
+                    <br/>
+                    Kabupaten Sidoarjo, Jawa Timur 61253<br/>
                     Indonesia
                   </p>
                   <button 
@@ -175,7 +168,7 @@ const Contact = () => {
                 <div className="text-center">
                   <MapPin className="h-16 w-16 text-red-600 mx-auto mb-4 animate-bounce" />
                   <p className="text-red-700 font-bold text-lg">Klik untuk Buka Maps</p>
-                  <p className="text-red-600 font-medium">Jalan Juanda No. 123, Gubeng, Surabaya</p>
+                  <p className="text-red-600 font-medium">Jl. Raya Pulungan No.100, Kepuh, Betro, Kec. Sedati, Kabupaten Sidoarjo</p>
                   <p className="text-sm text-red-500 mt-2">📍 Navigasi langsung ke lokasi kami</p>
                 </div>
               </div>
