@@ -29,7 +29,7 @@ const Menu = () => {
     {
       id: 1,
       name: "Mie Yamin Pedas Manis",
-      description: "Mie yamin dengan bumbu pedas manis khas, dilengkapi pangsit goreng dan sayuran segar",
+      description: "Nikmati sensasi mie yamin pedas manis khas dengan perpaduan bumbu pedas dan manis yang menggugah selera. Disajikan dengan pangsit goreng renyah dan sayuran segar untuk menambah kelezatan.",
       price: "Rp 15.000",
       rating: 4.9,
       image: "/mie_yaminpedas.jpeg",
@@ -38,40 +38,40 @@ const Menu = () => {
     {
       id: 2,
       name: "Mie Yamin Manis",
-      description: "Mie yamin klasik dengan pangsit rebus, sayuran hijau, dan kuah kaldu yang gurih",
-      price: "Rp 15.000",
+      description: "Mie yamin manis bercita rasa manis gurih, dipadukan dengan pangsit rebus, sayuran hijau segar, dan kuah kaldu hangat yang menghangatkan.",
+      price: "Rp 14.000",
       rating: 4.8,
       image: "/mie_yaminmanis.jpeg"
     },
     {
       id: 3,
       name: "Mie Pangsit",
-      description: "Mie yamin dengan potongan ayam kampung, pangsit jumbo, telur, dan topping lengkap",
-      price: "Rp 22.000",
+      description: "Mie pangsit spesial dengan potongan ayam kampung, dilengkapi pangsit jumbo, telur rebus, dan berbagai topping lengkap yang memanjakan lidah.",
+      price: "Rp 13.000",
       rating: 4.9,
       image: "mie_pangsitt.jpeg"
     },
     {
       id: 4,
       name: "Mie Pedas Gurih",
-      description: "Kombinasi mie yamin dengan bakso sapi pilihan dan pangsit goreng yang renyah",
-      price: "Rp 20.000",
+      description: "Paduan mie pedas gurih dengan bumbu pedas gurih, disertai bakso sapi pilihan dan pangsit goreng garing yang menambah tekstur kriuk dalam setiap suapan.",
+      price: "Rp 14.000",
       rating: 4.7,
       image: "/mie_pedasgurih.jpeg"
     },
     {
       id: 5,
       name: "Mie Chili Oil",
-      description: "Mie yamin dengan topping udang, cumi, dan pangsit isi seafood yang lezat",
-      price: "Rp 25.000",
+      description: "Mie Chili Oil dilumuri saus chili oil khas yang kaya rasa dan pedas menggoda, cocok untuk pecinta makanan berbumbu tajam.",
+      price: "Rp 15.000",
       rating: 4.8,
       image: "/mie_chilioil.jpeg"
     },
     {
       id: 6,
       name: "Wonton Chili Oil",
-      description: "Mie yamin dengan sayuran organik, tahu, tempe, dan pangsit sayur yang sehat",
-      price: "Rp 16.000",
+      description: "Wonton isi sayuran disajikan dengan saus chili oil spesial, ditambah tahu, tempe, dan sayuran organik. Cocok untuk kamu yang cari hidangan sehat tapi tetap mantap!",
+      price: "Rp 15.000",
       rating: 4.6,
       image: "/wonton_chilioil.jpeg"
     }

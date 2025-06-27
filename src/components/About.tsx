@@ -64,17 +64,15 @@ const About = () => {
             {/* Story */}
             <div className="bg-gradient-to-r from-red-50 to-orange-50 p-6 rounded-2xl">
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Cerita Kami</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Cerita di Balik Mie Pangsit Yamin Juanda
-                Awal mula kami merantau dari Magetan ke 
-                Surabaya tahun 2017 dan tinggal di kos-kosan
-                Sidoarjo bersama tiga saudara. Di tengah kesederhanaan,
-                kami sering memasak sendiri—terutama mie yamin, menu favorit
-                keluarga sejak dulu. Dari dapur kecil itu, lahir mimpi besar.
+              <p>
+                Mie Pangsit Yamin Juanda lahir dari kisah sederhana
+                tiga saudara yang merantau dari Magetan ke Surabaya
+                pada tahun 2017. Tinggal di kos Sidoarjo, mereka sering memasak sendiri, dan mie yamin menjadi hidangan favorit keluarga yang penuh kenangan. Saat pandemi 2020, dari dapur kos itulah usaha kecil bernama Mie Pangsit Yamin Juanda dimulai. Cita rasa khas dan harga terjangkau perlahan menarik pelanggan, memberi harapan di tengah masa sulit.
               </p>
               <p>
-                Tahun 2020, saat pandemi melanda, kami nekat memulai usaha kecil-kecilan
-                dari kos: Mie Pangsit Yamin Juanda. Perlahan tapi pasti, pelanggan mulai berdatangan karena rasa khas dan harga bersahabat. Dukungan dari sekitar menjadi semangat kami untuk terus berkembang.
+                Dengan semangat dan dukungan pelanggan, usaha ini berkembang. 
+                Mereka membuka tempat jualan di Warkop Sae, Mulyorejo – Pulungan 
+                Sedati, lalu cabang kedua di daerah Bypass arah Dam Bono. Sebagai wujud terima kasih, setiap hari Jumat di cabang Bypass, pelanggan mendapat es teh gratis. Bagi mereka, mie bukan hanya soal makanan, tapi kisah perjuangan, hangatnya keluarga, dan kebersamaan yang tumbuh dalam setiap mangkuk.
               </p>
             </div>
           </div>
